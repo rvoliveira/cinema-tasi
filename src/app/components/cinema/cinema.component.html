@@ -1,0 +1,13 @@
+<ion-item class="child-item" text-wrap detail="false" lines="none">
+    <ion-row no-padding align-items-center>
+      <ion-col>
+        <h4><b>{{ cinema.name }}</b></h4>   
+        <ion-label><b>Endereço:</b></ion-label>
+        <p text-lowercase color="medium"> {{ cinema.endereco }}</p>
+        <ion-label><b>Ingressos:</b></ion-label>
+        <ion-button fill="outline" (click)="buyItem(cinema)">Inteira {{ cinema.inteira }}</ion-button>
+        <ion-button fill="outline" (click)="buyItem(cinema)">Meia {{ cinema.meia }}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+    

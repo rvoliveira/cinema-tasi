@@ -1,0 +1,7 @@
+{
+  "name": "cinema-tasi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
